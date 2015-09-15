@@ -1,6 +1,5 @@
 package io.blackcomb.util;
 
-import io.blackcomb.db.ByteArrayWrapper;
 
 import org.spongycastle.util.encoders.Hex;
 

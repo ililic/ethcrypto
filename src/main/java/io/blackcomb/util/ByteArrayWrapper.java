@@ -1,4 +1,4 @@
-package io.blackcomb.db;
+package io.blackcomb.util;
 
 import io.blackcomb.util.FastByteComparisons;
 
