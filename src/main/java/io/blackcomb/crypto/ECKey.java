@@ -15,6 +15,7 @@ package io.blackcomb.crypto;
  * limitations under the License.
  */
 
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import org.spongycastle.asn1.sec.SECNamedCurves;
@@ -819,8 +820,6 @@ public class ECKey implements Serializable {
         return (bits[0] & 0xFF) | ((bits[1] & 0xFF) << 8) | ((bits[2] & 0xFF) << 16) | ((bits[3] & 0xFF) << 24);
     }
 
-
-
     @SuppressWarnings("serial")
     public static class MissingPrivateKeyException extends RuntimeException {
     }
@@ -828,5 +827,4 @@ public class ECKey implements Serializable {
     private static void check(boolean test, String message) {
         if (!test) throw new IllegalArgumentException(message);
     }
-
 }
