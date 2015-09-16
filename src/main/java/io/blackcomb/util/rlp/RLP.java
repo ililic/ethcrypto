@@ -1,5 +1,9 @@
-package io.blackcomb.util;
+package io.blackcomb.util.rlp;
 
+import io.blackcomb.util.ByteArrayWrapper;
+import io.blackcomb.util.ByteUtil;
+import io.blackcomb.util.DecodeResult;
+import io.blackcomb.util.Value;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,5 +1,6 @@
-package io.blackcomb.util;
+package io.blackcomb.util.rlp;
 
+import io.blackcomb.util.ByteUtil;
 import java.util.ArrayList;
 
 /**

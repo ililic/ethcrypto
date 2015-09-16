@@ -1,7 +1,7 @@
 package io.blackcomb.crypto;
 
 import io.blackcomb.crypto.cryptohash.Keccak256;
-import io.blackcomb.util.RLP;
+import io.blackcomb.util.rlp.RLP;
 import io.blackcomb.util.Utils;
 import org.spongycastle.crypto.Digest;
 import org.spongycastle.crypto.digests.RIPEMD160Digest;

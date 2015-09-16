@@ -1,5 +1,6 @@
 package io.blackcomb.util;
 
+import io.blackcomb.util.rlp.RLP;
 import com.cedarsoftware.util.DeepEquals;
 
 import io.blackcomb.crypto.HashUtil;

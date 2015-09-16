@@ -1,4 +1,4 @@
-package io.blackcomb.util;
+package io.blackcomb.util.rlp;
 
 /**
  * @author Roman Mandeleil

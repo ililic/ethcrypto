@@ -1,4 +1,4 @@
-package io.blackcomb.util;
+package io.blackcomb.util.rlp;
 
 import java.io.Serializable;
 
