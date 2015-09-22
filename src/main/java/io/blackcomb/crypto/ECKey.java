@@ -84,8 +84,8 @@ public class ECKey implements Serializable {
     public static final ECDomainParameters CURVE;
 
     /**
-     * Equal to CURVE.getN().shiftRight(1), used for canonicalising the S value of a signature. If you aren't
-     * sure what this is about, you can ignore it.
+     * Equal to CURVE.getN().shiftRight(1), used for canonicalising the S value 
+     * of a signature. If you aren't sure what this is about, you can ignore it.
      */
     public static final BigInteger HALF_CURVE_ORDER;
 

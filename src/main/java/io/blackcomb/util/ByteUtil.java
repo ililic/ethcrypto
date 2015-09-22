@@ -1,6 +1,5 @@
 package io.blackcomb.util;
 
-
 import org.spongycastle.util.encoders.Hex;
 
 import java.io.ByteArrayOutputStream;

@@ -1,7 +1,5 @@
 package io.blackcomb.util;
 
-import io.blackcomb.util.FastByteComparisons;
-
 import org.spongycastle.util.encoders.Hex;
 
 import java.io.Serializable;
